@@ -140,11 +140,9 @@ header {
 }
 
 .menuTop {
-	padding-top: 30px;
     padding-bottom: 30px;
 	background-color: rgb(30, 115, 190);
 	min-height: auto;
-	/*height: 600px;*/
 }
 
 .menuTop--dc {
@@ -164,6 +162,46 @@ header {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+.background-slider {
+    background-color: rgba(67, 57, 57, 0.459);
+    font-size: 96%;
+    margin-bottom: 10%;
+}
+
+.slider-carosel {
+    height: 500px !important;
+}
+
+.slider-carosel #carousel-example-generic,
+.carousel-inner,
+.carousel-item,
+.carousel-item img 
+{
+    height: 100% !important;
+}
+
+.background-slider {
+    background-color: rgba(67, 57, 57, 0.459);
+    font-size: 96%;
+    width: 80%;
+    left: 10%;
+}
+
+.background-slider h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.background-slider p {
+    text-transform: uppercase;
+    color: #FFF333;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 .nh--child {
@@ -196,7 +234,7 @@ header {
     line-height: 50px;
     width: 90%;
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 25px;
     height: 170px;
 }
 

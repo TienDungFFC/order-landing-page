@@ -126,4 +126,17 @@
     .footer {
     	text-align: center;
     }
+
+    .background-slider h3 {
+        font-size: 20px;
+    }
+
+    .background-slider p {
+        font-size: 10px;
+    }
+
+    .background-slider {
+        margin-bottom: 30%;
+    }
+
 }

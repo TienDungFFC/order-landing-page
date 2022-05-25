@@ -13,7 +13,7 @@
         justify-content: space-around;
     }
 
-    .input-search input, 
+  /*  .input-search input, */
     .header_main--hotline {
     	display: none;
     }
@@ -36,10 +36,27 @@
 	    flex-direction: column;
 	    width: 50%;
 	    background: #F5F7F7;
-	    height: 100%;
+	    height: auto;
 	    position: absolute;
         top: 0;
-    	display: none;
+        z-index: 2;
+    	/*display: none;*/
+    }
+
+    .menuTop ul li a {
+        font-size: 12px !important;
+    }
+
+    .nh:hover .nh--child {
+        font-size: 12px;
+    }
+
+   /* .header_main--search {
+        display: block;
+    }*/
+
+    .menuTop--dc > li {
+        margin-left: 10px !important;
     }
 
     .menuTop ul li a{
@@ -137,6 +154,16 @@
 
     .background-slider {
         margin-bottom: 30%;
+    }
+
+    /*test*/
+
+    form.contact-form {
+        margin-right: 50px;
+    }
+
+    .contact-address {
+        display: none;
     }
 
 }

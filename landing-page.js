@@ -29,5 +29,10 @@
 
     });
    $('.ndkhoi').slideUp();
+
+   $('.header_main-icon').on('click', function(event) {
+        event.preventDefault();
+        $('.menuTop--dc').css("visibility","visible");
+   });
 })  
  

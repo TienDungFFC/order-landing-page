@@ -32,16 +32,20 @@
     }
 
     .menuTop--dc {
-    	display: flex;
-	    flex-direction: column;
-	    width: 50%;
+	    width: 55%;
 	    background: #F5F7F7;
 	    height: auto;
 	    position: absolute;
-        top: 0;
         z-index: 2;
-    	/*display: none;*/
-        visibility: hidden;
+        display: none;
+        top: 90px;
+        
+    }
+
+    .menuTop ul li {
+        margin: 0 !important;
+        padding-left: 10px;
+        width: 100% !important;
     }
 
     .menuTop ul li a {
@@ -164,7 +168,7 @@
     /*test*/
 
     form.contact-form {
-        margin-right: 50px;
+        margin: 0 30px;
     }
 
     .contact-address {

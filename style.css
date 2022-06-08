@@ -12,6 +12,22 @@ header {
 	background: #9B0A00;
 }
 
+.bt-ct {
+    background: transparent;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#myNavbar {
+    display: block;
+}
+
+.navbar-header {
+    display: none;
+}
+
 .header__nav {
     height: 36px;
     display: flex;
@@ -81,6 +97,10 @@ header {
 
 .logo a {
 	text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: #0422A0;
+
 }
 
 .logo a img {

@@ -32,7 +32,13 @@
 
    $('.header_main-icon').on('click', function(event) {
         event.preventDefault();
-        $('.menuTop--dc').css("visibility","visible");
+        $('.menuTop--dc').toggle();
    });
+
+    $(document).on('click', function (e) {
+      if ($(e.target).hasClass('menuTop--dc')) {
+         alert(123)
+      }
+    });
 })  
  
